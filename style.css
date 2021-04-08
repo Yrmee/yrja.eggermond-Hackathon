@@ -1,0 +1,396 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-size: 10px; 
+    color: rgb(57, 55, 55);
+}
+
+header {
+    background-color: rgb(214, 214, 214);
+    border: 2px solid #19221aaf;
+    padding: 10px;
+    grid-area: header;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav {
+    background-color: rgb(214, 214, 214);
+    border: 2px solid #19221aaf;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: nav;
+}
+
+.navBar {
+    text-align: center;
+    padding: 5px;
+}
+.navBar li {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: darkred;
+}
+
+
+figure {
+    grid-area: img;  
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #616161af;
+}
+
+#img1 {
+    padding-bottom: 20px;
+}
+
+.imgabout {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgtext {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.textphoto {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.video-container { 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative; 
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; }
+
+.video-container iframe, 
+.video-container object, 
+.video-container embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    background-color: rgba(245, 245, 245, 0.603);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+      
+div.gallery:hover {
+    border: 1px solid #777;
+}
+      
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+article {
+    padding: 20px;
+    font-size: 15px;
+    text-align: justify;
+    word-spacing: 0.3rem;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+main {
+    background-color: rgb(214, 214, 214);
+    border: 2px solid #19221aaf;
+    grid-area: main;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+aside {
+    background-color: rgb(214, 214, 214);
+    border: 2px solid #19221aaf;
+    grid-area: aside;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#AM1form {
+    padding: 30px;  
+    background-color: rgb(214, 214, 214);
+    border: 2px solid #19221aaf;
+    font-size: medium;
+    grid-area: form;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+#contactf {
+    margin: 30px;
+    font-size: medium;
+}
+
+.formulier {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: column wrap;
+}
+
+input[type=text], input[type=email], 
+input[type=date], input[type=number], 
+input[type=file] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+#discription {
+    width: 100%;
+    height: 200px;
+}
+
+#cdiscription {
+    width: 100%;
+    height: 200px;
+}
+
+input[type=submit] {
+  background-color: #19221aaf;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+    background-color: rgb(214, 214, 214);
+    border: 2px solid #19221aaf;
+    font-size: medium;
+    grid-area: footer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.socials {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-flow: row wrap;
+}
+
+.grid-index {
+    margin: 5px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 100px 50px 1fr 1fr 200px 50px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    " . header . "
+    " . nav . "
+    " . img . "
+    " . main . "
+    " . aside . "
+    " . footer . ";
+}
+
+.grid-about {
+    margin: 5px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 100px 50px 1fr 1fr 100px 50px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    " . header . "
+    " . nav . "
+    " . img . "
+    " . main . "
+    " . aside . "
+    " . footer . ";
+}
+
+.grid-fanbase {
+    margin: 5px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 100px 50px 1fr 1fr 200px 50px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    " . header . "
+    " . nav . "
+    " . img . "
+    " . main . "
+    " . aside . "
+    " . footer . ";
+}
+
+.grid-contact {
+    margin: 5px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 100px 50px 1fr 1fr 1fr 100px 50px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    " . header . "
+    " . nav . "
+    " . img . "
+    " . main . "
+    " . form . "
+    " . aside . "
+    " . footer . ";
+}
+
+
+@media (min-width: 1024px) {
+
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+        font-size: 10px; 
+        color: rgb(57, 55, 55);
+    }
+
+    .navBar {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .img {
+        display: inline-block;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        padding-left: 60px;
+    }
+
+    #img1 {
+        padding-bottom: 0px;
+    }
+
+    #img2 {
+       padding-left: 20px;
+       padding-right: 10px; 
+       float: right;
+    }
+
+    .imgtext {
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .grid-index {
+        display: grid;
+        height: 1000px;
+        grid-template-columns: 30px 800px 200px 30px;
+        grid-template-rows: 150px 75px 1fr 1fr 50px;
+        grid-template-areas: 
+        " . header header . "
+        " . nav nav . "
+        " . img aside . "
+        " . main aside . "
+        " . footer footer . ";
+    }
+
+    .grid-about {
+        display: grid;
+        height: 1000px;
+        grid-template-columns: 30px 900px 30px;
+        grid-template-rows: 150px 75px 1fr 1fr 100px 50px;
+        grid-template-areas: 
+        " . header header . "
+        " . nav nav . "
+        " . img img . "
+        " . main main . "
+        " . aside aside . "
+        " . footer footer . ";
+    }
+
+    .grid-fanbase {
+        display: grid;
+        height: 1000px;
+        grid-template-columns: 30px 900px 200px 30px;
+        grid-template-rows: 150px 75px 1fr 1fr 50px;
+        grid-template-areas: 
+        " . header header . "
+        " . nav nav . "
+        " . img aside . "
+        " . main aside . "
+        " . footer footer . ";
+    }
+
+    .grid-contact {
+        margin: 5px;
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 30px 700px 200px 30px;
+        grid-template-rows: 150px 75px 1fr 1fr 1fr 50px;
+        grid-gap: 20px;
+        grid-template-areas: 
+        " . header header . "
+        " . nav nav . "
+        " . img aside . "
+        " . main aside . "
+        " . form aside . "
+        " . footer footer .";
+    }
+
+    .formulier {
+        font-size: large;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-flow: column wrap;
+    }
+
+    .cform {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-flow: column wrap;
+    }
+    
+    input[type=text], input[type=email], 
+    input[type=date], input[type=number], 
+    input[type=file] {
+        width: 400px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+    
+    #discription {
+        width: 600px;
+        height: 200px;
+    }
+
+    #cdiscription {
+        width: 600px;
+    }
+
+
+}
+
